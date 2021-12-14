@@ -1,0 +1,231 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: auto;
+}
+
+body, html {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+.jcp {
+  width: 50%;
+  height: 100%;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jcp .card {
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+  background-color: blue;
+}
+
+.jcp .card .img {
+  width: 100%;
+  height: 50%;
+  border-radius: 30px, 0px;
+  background-color: red;
+}
+
+.jcp .card .life {
+  width: 100%;
+  height: 25%;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #181616;
+  background-color: yellow;
+}
+
+.jcp .card .buttons {
+  width: 100%;
+  height: 25%;
+  border-radius: 0px, 30px;
+  background-color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jcp .card .buttons button {
+  width: 165px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffc4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .hero-container {
+  width: 50%;
+  height: 100%;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .hero-container .card {
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+  background-color: blue;
+}
+
+.main .hero-container .card .img {
+  width: 100%;
+  height: 50%;
+  border-radius: 30px, 0px;
+  background-color: red;
+}
+
+.main .hero-container .card .life {
+  width: 100%;
+  height: 25%;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #181616;
+  background-color: yellow;
+}
+
+.main .hero-container .card .buttons {
+  width: 100%;
+  height: 25%;
+  border-radius: 0px, 30px;
+  background-color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .hero-container .card .buttons button {
+  width: 165px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.main .monster-container {
+  width: 50%;
+  height: 100%;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .monster-container .card {
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+  background-color: blue;
+}
+
+.main .monster-container .card .img {
+  width: 100%;
+  height: 50%;
+  border-radius: 30px, 0px;
+  background-color: red;
+}
+
+.main .monster-container .card .life {
+  width: 100%;
+  height: 25%;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #181616;
+  background-color: yellow;
+}
+
+.main .monster-container .card .buttons {
+  width: 100%;
+  height: 25%;
+  border-radius: 0px, 30px;
+  background-color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .monster-container .card .buttons button {
+  width: 165px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
